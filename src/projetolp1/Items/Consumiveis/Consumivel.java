@@ -5,6 +5,7 @@
  */
 package projetolp1.Items.Consumiveis;
 import projetolp1.Items.Item;
+import projetolp1.Principal.Personagem;
 /**
  *
  * @author Batata

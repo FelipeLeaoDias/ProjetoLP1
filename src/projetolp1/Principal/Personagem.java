@@ -5,6 +5,9 @@
  */
 package projetolp1.Principal;
 
+import projetolp1.Classes.ClasseMae;
+import projetolp1.Racas.RacaBase;
+
 /**
  *
  * @author Batata
@@ -21,6 +24,7 @@ public class Personagem {
     private int qtdMovimento;
     private int posicaoNoMapa;
     private float modDano;
+    private int status;
     // Equip equipamento -- talvez separar em slots? cabeca, armadura, botas.
     //ArrayList<item> Inventario = new ArrayList;
     // Dano dano;
@@ -40,6 +44,11 @@ public class Personagem {
       this.danoRecebido = 0;
       // this.status = 0;
 
+    }
+    
+    
+    public RacaBase getRaca(){
+        return raca;
     }
     /**
      * @return the nome
@@ -108,14 +117,14 @@ public class Personagem {
      * @return the defesa
      */
     public int getDefesa() {
-        return defesa;
+        return Defesa;
     }
 
     /**
      * @param defesa the defesa to set
      */
     public void setDefesa(int defesa) {
-        this.defesa = defesa;
+        this.Defesa = defesa;
     }
 
     /**

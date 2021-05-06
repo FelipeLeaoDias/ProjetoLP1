@@ -5,14 +5,16 @@
  */
 package projetolp1.Racas;
 
+import projetolp1.Principal.Personagem;
+
 /**
  *
  * @author felip
  */
-public  abstract class Humano extends RacaBase {
-  Humano(){
+public abstract class Humano extends RacaBase {
+  Humano(Personagem p){
     modAtributo(p, 0); // Vida
-    modAtributo(p, 0); // Vida
+    modAtributo(p, 1); // Mana
   }
 
 }

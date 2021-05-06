@@ -5,13 +5,15 @@
  */
 package projetolp1.Racas;
 
+import projetolp1.Principal.Personagem;
+
 /**
  *
  * @author felip
  */
-public  abstract class Anao extends RacaBase {
-  Anao(){
+public abstract class Anao extends RacaBase {
+  Anao(Personagem p){
     modAtributo(p, 0); // Vida
-    modAtributo(p, 0); // Vida
+    modAtributo(p, 2); // Defesa
   }
 }
